@@ -1,7 +1,6 @@
 .PHONY: demo
 demo:
-		kustomize build . | kubectl apply -f -
-
+rm -fr ku	
 # This regenerates the istio manifests while using yq to remove the CRD for the
 # operator so it doesn't clash with the istio operator which also includes the
 # CRD
