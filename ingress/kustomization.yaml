@@ -23,5 +23,6 @@ patchesJSON6902:
           port: 80
           protocol: TCP
           targetPort: 8080
+          nodePort: 32808
 
 
